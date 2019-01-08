@@ -1,0 +1,762 @@
+---------------------------------------------------------------
+[ 2018-11-28T23:53:50+08:00 ] 127.0.0.1 GET 127.0.0.1:8000/
+[运行时间：0.083319s] [吞吐率：12.00req/s] [内存消耗：2,478.88kb] [文件加载：91]
+[ info ] [ LANG ] /Users/jon/Documents/项目汇总/车自主/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:8000',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1542875723; PHPSESSID=adc4a494dbb737cd1f81cb16d8b97397; city_name=%u67F3%u5DDE; city=%7B%22id%22%3A48%2C%22name%22%3A%22%u67F3%u5DDE%22%2C%22parent_id%22%3A46%2C%22listoreder%22%3A0%2C%22status%22%3A1%2C%22create_time%22%3Anull%2C%22update_time%22%3Anull%2C%22uname%22%3A%22liuzhou%22%2C%22is_default%22%3Anull%7D',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /Users/jon/Documents/项目汇总/车自主/application/index/view/index/index.html [ array (
+) ]
+---------------------------------------------------------------
+[ 2018-11-28T23:53:51+08:00 ] 127.0.0.1 GET 127.0.0.1:8000/static/index/vant/axios.min.map
+[运行时间：0.046853s] [吞吐率：21.34req/s] [内存消耗：1,608.25kb] [文件加载：68]
+[ info ] [ LANG ] /Users/jon/Documents/项目汇总/车自主/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[ 2018-11-28T23:53:52+08:00 ] 127.0.0.1 GET 127.0.0.1:8000/index/index/indexdata/
+[运行时间：0.381395s] [吞吐率：2.62req/s] [内存消耗：3,397.99kb] [文件加载：97]
+[ info ] [ LANG ] /Users/jon/Documents/项目汇总/车自主/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:8000',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/plain, */*',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36',
+  'referer' => 'http://127.0.0.1:8000/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1542875723; PHPSESSID=adc4a494dbb737cd1f81cb16d8b97397; city_name=%u67F3%u5DDE; city=%7B%22id%22%3A48%2C%22name%22%3A%22%u67F3%u5DDE%22%2C%22parent_id%22%3A46%2C%22listoreder%22%3A0%2C%22status%22%3A1%2C%22create_time%22%3Anull%2C%22update_time%22%3Anull%2C%22uname%22%3A%22liuzhou%22%2C%22is_default%22%3Anull%7D',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.089346s ] mysql:host=39.108.101.229;dbname=czz_10huisp_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `clt_city` [ RunTime:0.058381s ]
+[ sql ] [ SQL ] SELECT * FROM `clt_city` [ RunTime:0.055978s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `clt_featured` [ RunTime:0.056030s ]
+[ sql ] [ SQL ] SELECT * FROM `clt_featured` [ RunTime:0.054647s ]
+---------------------------------------------------------------
+[ 2018-11-28T23:53:52+08:00 ] 127.0.0.1 GET 127.0.0.1:8000/uploads/20181127/abdf0a6102d18bf1df5327cd73337020.jpg
+[运行时间：0.016561s] [吞吐率：60.38req/s] [内存消耗：1,608.27kb] [文件加载：68]
+[ info ] [ LANG ] /Users/jon/Documents/项目汇总/车自主/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[ 2018-11-28T23:53:54+08:00 ] 127.0.0.1 GET 127.0.0.1:8000/
+[运行时间：0.039538s] [吞吐率：25.29req/s] [内存消耗：2,479.41kb] [文件加载：91]
+[ info ] [ LANG ] /Users/jon/Documents/项目汇总/车自主/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:8000',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Mobile Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1542875723; PHPSESSID=adc4a494dbb737cd1f81cb16d8b97397; city_name=%u67F3%u5DDE; city=%7B%22id%22%3A48%2C%22name%22%3A%22%u67F3%u5DDE%22%2C%22parent_id%22%3A46%2C%22listoreder%22%3A0%2C%22status%22%3A1%2C%22create_time%22%3Anull%2C%22update_time%22%3Anull%2C%22uname%22%3A%22liuzhou%22%2C%22is_default%22%3Anull%7D',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /Users/jon/Documents/项目汇总/车自主/application/index/view/index/index.html [ array (
+) ]
+---------------------------------------------------------------
+[ 2018-11-28T23:53:54+08:00 ] 127.0.0.1 GET 127.0.0.1:8000/static/index/vant/axios.min.map
+[运行时间：0.028705s] [吞吐率：34.84req/s] [内存消耗：1,608.25kb] [文件加载：68]
+[ info ] [ LANG ] /Users/jon/Documents/项目汇总/车自主/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[ 2018-11-28T23:53:55+08:00 ] 127.0.0.1 GET 127.0.0.1:8000/index/index/indexdata/
+[运行时间：0.381120s] [吞吐率：2.62req/s] [内存消耗：3,397.99kb] [文件加载：97]
+[ info ] [ LANG ] /Users/jon/Documents/项目汇总/车自主/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:8000',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/plain, */*',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Mobile Safari/537.36',
+  'referer' => 'http://127.0.0.1:8000/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1542875723; PHPSESSID=adc4a494dbb737cd1f81cb16d8b97397; city_name=%u67F3%u5DDE; city=%7B%22id%22%3A48%2C%22name%22%3A%22%u67F3%u5DDE%22%2C%22parent_id%22%3A46%2C%22listoreder%22%3A0%2C%22status%22%3A1%2C%22create_time%22%3Anull%2C%22update_time%22%3Anull%2C%22uname%22%3A%22liuzhou%22%2C%22is_default%22%3Anull%7D',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.094911s ] mysql:host=39.108.101.229;dbname=czz_10huisp_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `clt_city` [ RunTime:0.056389s ]
+[ sql ] [ SQL ] SELECT * FROM `clt_city` [ RunTime:0.054417s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `clt_featured` [ RunTime:0.055850s ]
+[ sql ] [ SQL ] SELECT * FROM `clt_featured` [ RunTime:0.055448s ]
+---------------------------------------------------------------
+[ 2018-11-28T23:53:55+08:00 ] 127.0.0.1 GET 127.0.0.1:8000/uploads/20181127/abdf0a6102d18bf1df5327cd73337020.jpg
+[运行时间：0.017406s] [吞吐率：57.45req/s] [内存消耗：1,608.27kb] [文件加载：68]
+[ info ] [ LANG ] /Users/jon/Documents/项目汇总/车自主/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[ 2018-11-28T23:53:55+08:00 ] 127.0.0.1 GET 127.0.0.1:8000/
+[运行时间：0.032299s] [吞吐率：30.96req/s] [内存消耗：2,479.41kb] [文件加载：91]
+[ info ] [ LANG ] /Users/jon/Documents/项目汇总/车自主/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:8000',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Mobile Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1542875723; PHPSESSID=adc4a494dbb737cd1f81cb16d8b97397; city_name=%u67F3%u5DDE; city=%7B%22id%22%3A48%2C%22name%22%3A%22%u67F3%u5DDE%22%2C%22parent_id%22%3A46%2C%22listoreder%22%3A0%2C%22status%22%3A1%2C%22create_time%22%3Anull%2C%22update_time%22%3Anull%2C%22uname%22%3A%22liuzhou%22%2C%22is_default%22%3Anull%7D',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /Users/jon/Documents/项目汇总/车自主/application/index/view/index/index.html [ array (
+) ]
+---------------------------------------------------------------
+[ 2018-11-28T23:53:56+08:00 ] 127.0.0.1 GET 127.0.0.1:8000/static/index/vant/axios.min.map
+[运行时间：0.031637s] [吞吐率：31.61req/s] [内存消耗：1,608.25kb] [文件加载：68]
+[ info ] [ LANG ] /Users/jon/Documents/项目汇总/车自主/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[ 2018-11-28T23:53:56+08:00 ] 127.0.0.1 GET 127.0.0.1:8000/index/index/indexdata/
+[运行时间：0.491467s] [吞吐率：2.03req/s] [内存消耗：3,397.99kb] [文件加载：97]
+[ info ] [ LANG ] /Users/jon/Documents/项目汇总/车自主/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:8000',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/plain, */*',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Mobile Safari/537.36',
+  'referer' => 'http://127.0.0.1:8000/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1542875723; PHPSESSID=adc4a494dbb737cd1f81cb16d8b97397; city_name=%u67F3%u5DDE; city=%7B%22id%22%3A48%2C%22name%22%3A%22%u67F3%u5DDE%22%2C%22parent_id%22%3A46%2C%22listoreder%22%3A0%2C%22status%22%3A1%2C%22create_time%22%3Anull%2C%22update_time%22%3Anull%2C%22uname%22%3A%22liuzhou%22%2C%22is_default%22%3Anull%7D',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.073164s ] mysql:host=39.108.101.229;dbname=czz_10huisp_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `clt_city` [ RunTime:0.049860s ]
+[ sql ] [ SQL ] SELECT * FROM `clt_city` [ RunTime:0.047484s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `clt_featured` [ RunTime:0.048551s ]
+[ sql ] [ SQL ] SELECT * FROM `clt_featured` [ RunTime:0.200064s ]
+---------------------------------------------------------------
+[ 2018-11-28T23:53:56+08:00 ] 127.0.0.1 GET 127.0.0.1:8000/uploads/20181127/abdf0a6102d18bf1df5327cd73337020.jpg
+[运行时间：0.026496s] [吞吐率：37.74req/s] [内存消耗：1,608.27kb] [文件加载：68]
+[ info ] [ LANG ] /Users/jon/Documents/项目汇总/车自主/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[ 2018-11-28T23:53:57+08:00 ] 127.0.0.1 GET 127.0.0.1:8000/index/user/index.html
+[运行时间：0.041997s] [吞吐率：23.81req/s] [内存消耗：2,629.53kb] [文件加载：92]
+[ info ] [ LANG ] /Users/jon/Documents/项目汇总/车自主/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:8000',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Mobile Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1:8000/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1542875723; PHPSESSID=adc4a494dbb737cd1f81cb16d8b97397; city_name=%u67F3%u5DDE; city=%7B%22id%22%3A48%2C%22name%22%3A%22%u67F3%u5DDE%22%2C%22parent_id%22%3A46%2C%22listoreder%22%3A0%2C%22status%22%3A1%2C%22create_time%22%3Anull%2C%22update_time%22%3Anull%2C%22uname%22%3A%22liuzhou%22%2C%22is_default%22%3Anull%7D',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /Users/jon/Documents/项目汇总/车自主/application/index/view/user/index.html [ array (
+  0 => 'user',
+) ]
+---------------------------------------------------------------
+[ 2018-11-28T23:53:59+08:00 ] 127.0.0.1 GET 127.0.0.1:8000/index/servicer/index.html
+[运行时间：0.041002s] [吞吐率：24.39req/s] [内存消耗：2,632.27kb] [文件加载：93]
+[ info ] [ LANG ] /Users/jon/Documents/项目汇总/车自主/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:8000',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Mobile Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1:8000/index/user/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1542875723; PHPSESSID=adc4a494dbb737cd1f81cb16d8b97397; city_name=%u67F3%u5DDE; city=%7B%22id%22%3A48%2C%22name%22%3A%22%u67F3%u5DDE%22%2C%22parent_id%22%3A46%2C%22listoreder%22%3A0%2C%22status%22%3A1%2C%22create_time%22%3Anull%2C%22update_time%22%3Anull%2C%22uname%22%3A%22liuzhou%22%2C%22is_default%22%3Anull%7D',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /Users/jon/Documents/项目汇总/车自主/application/index/view/servicer/index.html [ array (
+) ]
+---------------------------------------------------------------
+[ 2018-11-28T23:53:59+08:00 ] 127.0.0.1 GET 127.0.0.1:8000/resources/js/sl.location.1.0.js?v=1.2.25.51
+[运行时间：0.021913s] [吞吐率：45.63req/s] [内存消耗：1,608.25kb] [文件加载：68]
+[ info ] [ LANG ] /Users/jon/Documents/项目汇总/车自主/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[ 2018-11-28T23:53:59+08:00 ] 127.0.0.1 GET 127.0.0.1:8000/static/index/vant/axios.min.map
+[运行时间：0.017343s] [吞吐率：57.66req/s] [内存消耗：1,608.25kb] [文件加载：68]
+[ info ] [ LANG ] /Users/jon/Documents/项目汇总/车自主/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[ 2018-11-28T23:53:59+08:00 ] 127.0.0.1 GET 127.0.0.1:8000/index/maintenance/cityCity?city_id=48
+[运行时间：0.336377s] [吞吐率：2.97req/s] [内存消耗：2,968.54kb] [文件加载：83]
+[ info ] [ LANG ] /Users/jon/Documents/项目汇总/车自主/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:8000',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/plain, */*',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Mobile Safari/537.36',
+  'referer' => 'http://127.0.0.1:8000/index/servicer/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'carinfo=70; car_name=%u8FDB%u53E3%u5965%u8FEAA4-2005%u6B3E-%u6392%u91CF%uFF1A1.9TDI; shop_info=%7B%22name%22%3A%22%u6881%u6CFD%u7965%22%2C%22phone%22%3A%2218577610926%22%2C%22bis_id%22%3A33%7D; by_service=30%2C33%2C34%2C31; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1542875723; PHPSESSID=adc4a494dbb737cd1f81cb16d8b97397; city_name=%u67F3%u5DDE; city=%7B%22id%22%3A48%2C%22name%22%3A%22%u67F3%u5DDE%22%2C%22parent_id%22%3A46%2C%22listoreder%22%3A0%2C%22status%22%3A1%2C%22create_time%22%3Anull%2C%22update_time%22%3Anull%2C%22uname%22%3A%22liuzhou%22%2C%22is_default%22%3Anull%7D',
+)
+[ info ] [ PARAM ] array (
+  'city_id' => '48',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.074586s ] mysql:host=39.108.101.229;dbname=czz_10huisp_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `clt_bislocation` [ RunTime:0.049080s ]
+[ sql ] [ SQL ] SELECT * FROM `clt_bislocation` WHERE  `city_id` = 48 [ RunTime:0.049510s ]
+---------------------------------------------------------------
+[ 2018-11-28T23:53:59+08:00 ] 127.0.0.1 GET 127.0.0.1:8000/index/user/index.html
+[运行时间：0.041984s] [吞吐率：23.82req/s] [内存消耗：2,482.21kb] [文件加载：90]
+[ info ] [ LANG ] /Users/jon/Documents/项目汇总/车自主/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:8000',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Mobile Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1:8000/index/servicer/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1542875723; PHPSESSID=adc4a494dbb737cd1f81cb16d8b97397; city_name=%u67F3%u5DDE; city=%7B%22id%22%3A48%2C%22name%22%3A%22%u67F3%u5DDE%22%2C%22parent_id%22%3A46%2C%22listoreder%22%3A0%2C%22status%22%3A1%2C%22create_time%22%3Anull%2C%22update_time%22%3Anull%2C%22uname%22%3A%22liuzhou%22%2C%22is_default%22%3Anull%7D',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /Users/jon/Documents/项目汇总/车自主/application/index/view/user/index.html [ array (
+  0 => 'user',
+) ]
+---------------------------------------------------------------
+[ 2018-11-28T23:54:00+08:00 ] 127.0.0.1 GET 127.0.0.1:8000/index/user/login.html
+[运行时间：0.031165s] [吞吐率：32.09req/s] [内存消耗：2,258.64kb] [文件加载：83]
+[ info ] [ LANG ] /Users/jon/Documents/项目汇总/车自主/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:8000',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Mobile Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1:8000/index/user/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1542875723; PHPSESSID=adc4a494dbb737cd1f81cb16d8b97397; city_name=%u67F3%u5DDE; city=%7B%22id%22%3A48%2C%22name%22%3A%22%u67F3%u5DDE%22%2C%22parent_id%22%3A46%2C%22listoreder%22%3A0%2C%22status%22%3A1%2C%22create_time%22%3Anull%2C%22update_time%22%3Anull%2C%22uname%22%3A%22liuzhou%22%2C%22is_default%22%3Anull%7D',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /Users/jon/Documents/项目汇总/车自主/application/index/view/user/login.html [ array (
+) ]
+---------------------------------------------------------------
+[ 2018-11-28T23:54:01+08:00 ] 127.0.0.1 GET 127.0.0.1:8000/static/index/vant/axios.min.map
+[运行时间：0.034261s] [吞吐率：29.19req/s] [内存消耗：1,608.25kb] [文件加载：68]
+[ info ] [ LANG ] /Users/jon/Documents/项目汇总/车自主/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[ 2018-11-28T23:54:05+08:00 ] 127.0.0.1 GET 127.0.0.1:8000/
+[运行时间：0.039216s] [吞吐率：25.50req/s] [内存消耗：2,478.89kb] [文件加载：91]
+[ info ] [ LANG ] /Users/jon/Documents/项目汇总/车自主/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:8000',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Mobile Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1542875723; PHPSESSID=adc4a494dbb737cd1f81cb16d8b97397; city_name=%u67F3%u5DDE; city=%7B%22id%22%3A48%2C%22name%22%3A%22%u67F3%u5DDE%22%2C%22parent_id%22%3A46%2C%22listoreder%22%3A0%2C%22status%22%3A1%2C%22create_time%22%3Anull%2C%22update_time%22%3Anull%2C%22uname%22%3A%22liuzhou%22%2C%22is_default%22%3Anull%7D',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /Users/jon/Documents/项目汇总/车自主/application/index/view/index/index.html [ array (
+) ]
+---------------------------------------------------------------
+[ 2018-11-28T23:54:06+08:00 ] 127.0.0.1 GET 127.0.0.1:8000/index/index/indexdata/
+[运行时间：0.365611s] [吞吐率：2.74req/s] [内存消耗：3,397.99kb] [文件加载：97]
+[ info ] [ LANG ] /Users/jon/Documents/项目汇总/车自主/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:8000',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/plain, */*',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Mobile Safari/537.36',
+  'referer' => 'http://127.0.0.1:8000/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1542875723; PHPSESSID=adc4a494dbb737cd1f81cb16d8b97397; city_name=%u67F3%u5DDE; city=%7B%22id%22%3A48%2C%22name%22%3A%22%u67F3%u5DDE%22%2C%22parent_id%22%3A46%2C%22listoreder%22%3A0%2C%22status%22%3A1%2C%22create_time%22%3Anull%2C%22update_time%22%3Anull%2C%22uname%22%3A%22liuzhou%22%2C%22is_default%22%3Anull%7D',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.084454s ] mysql:host=39.108.101.229;dbname=czz_10huisp_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `clt_city` [ RunTime:0.055668s ]
+[ sql ] [ SQL ] SELECT * FROM `clt_city` [ RunTime:0.056398s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `clt_featured` [ RunTime:0.055519s ]
+[ sql ] [ SQL ] SELECT * FROM `clt_featured` [ RunTime:0.056159s ]
+---------------------------------------------------------------
+[ 2018-11-28T23:54:06+08:00 ] 127.0.0.1 GET 127.0.0.1:8000/static/index/vant/axios.min.map
+[运行时间：0.025535s] [吞吐率：39.16req/s] [内存消耗：1,608.25kb] [文件加载：68]
+[ info ] [ LANG ] /Users/jon/Documents/项目汇总/车自主/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[ 2018-11-28T23:54:06+08:00 ] 127.0.0.1 GET 127.0.0.1:8000/uploads/20181127/abdf0a6102d18bf1df5327cd73337020.jpg
+[运行时间：0.017910s] [吞吐率：55.83req/s] [内存消耗：1,608.27kb] [文件加载：68]
+[ info ] [ LANG ] /Users/jon/Documents/项目汇总/车自主/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[ 2018-11-28T23:54:07+08:00 ] 127.0.0.1 GET 127.0.0.1:8000/index/user/index.html
+[运行时间：0.029429s] [吞吐率：33.98req/s] [内存消耗：2,482.18kb] [文件加载：90]
+[ info ] [ LANG ] /Users/jon/Documents/项目汇总/车自主/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:8000',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Mobile Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1:8000/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1542875723; PHPSESSID=adc4a494dbb737cd1f81cb16d8b97397; city_name=%u67F3%u5DDE; city=%7B%22id%22%3A48%2C%22name%22%3A%22%u67F3%u5DDE%22%2C%22parent_id%22%3A46%2C%22listoreder%22%3A0%2C%22status%22%3A1%2C%22create_time%22%3Anull%2C%22update_time%22%3Anull%2C%22uname%22%3A%22liuzhou%22%2C%22is_default%22%3Anull%7D',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /Users/jon/Documents/项目汇总/车自主/application/index/view/user/index.html [ array (
+  0 => 'user',
+) ]
+---------------------------------------------------------------
+[ 2018-11-28T23:54:09+08:00 ] 127.0.0.1 GET 127.0.0.1:8000/index/user/login.html
+[运行时间：0.032996s] [吞吐率：30.31req/s] [内存消耗：2,112.30kb] [文件加载：81]
+[ info ] [ LANG ] /Users/jon/Documents/项目汇总/车自主/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:8000',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Mobile Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1:8000/index/user/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1542875723; PHPSESSID=adc4a494dbb737cd1f81cb16d8b97397; city_name=%u67F3%u5DDE; city=%7B%22id%22%3A48%2C%22name%22%3A%22%u67F3%u5DDE%22%2C%22parent_id%22%3A46%2C%22listoreder%22%3A0%2C%22status%22%3A1%2C%22create_time%22%3Anull%2C%22update_time%22%3Anull%2C%22uname%22%3A%22liuzhou%22%2C%22is_default%22%3Anull%7D',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /Users/jon/Documents/项目汇总/车自主/application/index/view/user/login.html [ array (
+) ]
+---------------------------------------------------------------
+[ 2018-11-28T23:54:09+08:00 ] 127.0.0.1 GET 127.0.0.1:8000/static/index/vant/axios.min.map
+[运行时间：0.034342s] [吞吐率：29.12req/s] [内存消耗：1,608.25kb] [文件加载：68]
+[ info ] [ LANG ] /Users/jon/Documents/项目汇总/车自主/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[ 2018-11-28T23:54:10+08:00 ] 127.0.0.1 GET 127.0.0.1:8000/index/user/index.html
+[运行时间：0.025573s] [吞吐率：39.10req/s] [内存消耗：2,482.18kb] [文件加载：90]
+[ info ] [ LANG ] /Users/jon/Documents/项目汇总/车自主/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:8000',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Mobile Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1:8000/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1542875723; PHPSESSID=adc4a494dbb737cd1f81cb16d8b97397; city_name=%u67F3%u5DDE; city=%7B%22id%22%3A48%2C%22name%22%3A%22%u67F3%u5DDE%22%2C%22parent_id%22%3A46%2C%22listoreder%22%3A0%2C%22status%22%3A1%2C%22create_time%22%3Anull%2C%22update_time%22%3Anull%2C%22uname%22%3A%22liuzhou%22%2C%22is_default%22%3Anull%7D',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /Users/jon/Documents/项目汇总/车自主/application/index/view/user/index.html [ array (
+  0 => 'user',
+) ]
+---------------------------------------------------------------
+[ 2018-11-28T23:54:17+08:00 ] 127.0.0.1 GET 127.0.0.1:8000/index/user/maintenance.html
+[运行时间：0.029671s] [吞吐率：33.70req/s] [内存消耗：2,360.38kb] [文件加载：88]
+[ info ] [ LANG ] /Users/jon/Documents/项目汇总/车自主/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:8000',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Mobile Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1:8000/index/user/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1542875723; PHPSESSID=adc4a494dbb737cd1f81cb16d8b97397; city_name=%u67F3%u5DDE; city=%7B%22id%22%3A48%2C%22name%22%3A%22%u67F3%u5DDE%22%2C%22parent_id%22%3A46%2C%22listoreder%22%3A0%2C%22status%22%3A1%2C%22create_time%22%3Anull%2C%22update_time%22%3Anull%2C%22uname%22%3A%22liuzhou%22%2C%22is_default%22%3Anull%7D',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /Users/jon/Documents/项目汇总/车自主/application/index/view/user/maintenance.html [ array (
+) ]
+---------------------------------------------------------------
+[ 2018-11-28T23:54:18+08:00 ] 127.0.0.1 GET 127.0.0.1:8000/static/index/vant/axios.min.map
+[运行时间：0.016770s] [吞吐率：59.63req/s] [内存消耗：1,608.25kb] [文件加载：68]
+[ info ] [ LANG ] /Users/jon/Documents/项目汇总/车自主/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[ 2018-11-28T23:54:19+08:00 ] 127.0.0.1 GET 127.0.0.1:8000/index/user/maintenance?page=1&limit=5
+[运行时间：0.323654s] [吞吐率：3.09req/s] [内存消耗：3,530.34kb] [文件加载：101]
+[ info ] [ LANG ] /Users/jon/Documents/项目汇总/车自主/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:8000',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/plain, */*',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Mobile Safari/537.36',
+  'referer' => 'http://127.0.0.1:8000/index/user/maintenance.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1542875723; PHPSESSID=adc4a494dbb737cd1f81cb16d8b97397; city_name=%u67F3%u5DDE; city=%7B%22id%22%3A48%2C%22name%22%3A%22%u67F3%u5DDE%22%2C%22parent_id%22%3A46%2C%22listoreder%22%3A0%2C%22status%22%3A1%2C%22create_time%22%3Anull%2C%22update_time%22%3Anull%2C%22uname%22%3A%22liuzhou%22%2C%22is_default%22%3Anull%7D',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'limit' => '5',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.062762s ] mysql:host=39.108.101.229;dbname=czz_10huisp_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `clt_order` [ RunTime:0.041993s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `clt_order` WHERE  `user_id` = 25 LIMIT 1 [ RunTime:0.042882s ]
+[ sql ] [ SQL ] SELECT * FROM `clt_order` WHERE  `user_id` = 25 LIMIT 0,5 [ RunTime:0.041669s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `clt_bislocation` [ RunTime:0.043922s ]
+[ sql ] [ SQL ] SELECT * FROM `clt_bislocation` WHERE  `id` IN (33) [ RunTime:0.046507s ]
+---------------------------------------------------------------
+[ 2018-11-28T23:54:19+08:00 ] 127.0.0.1 GET 127.0.0.1:8000/index/user/maintenance?page=2&limit=5
+[运行时间：0.273541s] [吞吐率：3.66req/s] [内存消耗：3,513.06kb] [文件加载：101]
+[ info ] [ LANG ] /Users/jon/Documents/项目汇总/车自主/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:8000',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/plain, */*',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Mobile Safari/537.36',
+  'referer' => 'http://127.0.0.1:8000/index/user/maintenance.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1542875723; PHPSESSID=adc4a494dbb737cd1f81cb16d8b97397; city_name=%u67F3%u5DDE; city=%7B%22id%22%3A48%2C%22name%22%3A%22%u67F3%u5DDE%22%2C%22parent_id%22%3A46%2C%22listoreder%22%3A0%2C%22status%22%3A1%2C%22create_time%22%3Anull%2C%22update_time%22%3Anull%2C%22uname%22%3A%22liuzhou%22%2C%22is_default%22%3Anull%7D',
+)
+[ info ] [ PARAM ] array (
+  'page' => '2',
+  'limit' => '5',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.081139s ] mysql:host=39.108.101.229;dbname=czz_10huisp_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `clt_order` [ RunTime:0.053714s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `clt_order` WHERE  `user_id` = 25 LIMIT 1 [ RunTime:0.051866s ]
+[ sql ] [ SQL ] SELECT * FROM `clt_order` WHERE  `user_id` = 25 LIMIT 5,5 [ RunTime:0.054879s ]
+---------------------------------------------------------------
+[ 2018-11-28T23:54:20+08:00 ] 127.0.0.1 GET 127.0.0.1:8000/
+[运行时间：0.029963s] [吞吐率：33.37req/s] [内存消耗：2,479.56kb] [文件加载：91]
+[ info ] [ LANG ] /Users/jon/Documents/项目汇总/车自主/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:8000',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Mobile Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1:8000/index/user/maintenance.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1542875723; PHPSESSID=adc4a494dbb737cd1f81cb16d8b97397; city_name=%u67F3%u5DDE; city=%7B%22id%22%3A48%2C%22name%22%3A%22%u67F3%u5DDE%22%2C%22parent_id%22%3A46%2C%22listoreder%22%3A0%2C%22status%22%3A1%2C%22create_time%22%3Anull%2C%22update_time%22%3Anull%2C%22uname%22%3A%22liuzhou%22%2C%22is_default%22%3Anull%7D',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /Users/jon/Documents/项目汇总/车自主/application/index/view/index/index.html [ array (
+) ]
+---------------------------------------------------------------
+[ 2018-11-28T23:54:20+08:00 ] 127.0.0.1 GET 127.0.0.1:8000/static/index/vant/axios.min.map
+[运行时间：0.033354s] [吞吐率：29.98req/s] [内存消耗：1,608.25kb] [文件加载：68]
+[ info ] [ LANG ] /Users/jon/Documents/项目汇总/车自主/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[ 2018-11-28T23:54:20+08:00 ] 127.0.0.1 GET 127.0.0.1:8000/index/index/indexdata/
+[运行时间：0.323183s] [吞吐率：3.09req/s] [内存消耗：3,397.99kb] [文件加载：97]
+[ info ] [ LANG ] /Users/jon/Documents/项目汇总/车自主/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:8000',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/plain, */*',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Mobile Safari/537.36',
+  'referer' => 'http://127.0.0.1:8000/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1542875723; PHPSESSID=adc4a494dbb737cd1f81cb16d8b97397; city_name=%u67F3%u5DDE; city=%7B%22id%22%3A48%2C%22name%22%3A%22%u67F3%u5DDE%22%2C%22parent_id%22%3A46%2C%22listoreder%22%3A0%2C%22status%22%3A1%2C%22create_time%22%3Anull%2C%22update_time%22%3Anull%2C%22uname%22%3A%22liuzhou%22%2C%22is_default%22%3Anull%7D',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.061034s ] mysql:host=39.108.101.229;dbname=czz_10huisp_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `clt_city` [ RunTime:0.040885s ]
+[ sql ] [ SQL ] SELECT * FROM `clt_city` [ RunTime:0.038268s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `clt_featured` [ RunTime:0.040605s ]
+[ sql ] [ SQL ] SELECT * FROM `clt_featured` [ RunTime:0.039083s ]
+---------------------------------------------------------------
+[ 2018-11-28T23:54:20+08:00 ] 127.0.0.1 GET 127.0.0.1:8000/uploads/20181127/abdf0a6102d18bf1df5327cd73337020.jpg
+[运行时间：0.032335s] [吞吐率：30.93req/s] [内存消耗：1,608.27kb] [文件加载：68]
+[ info ] [ LANG ] /Users/jon/Documents/项目汇总/车自主/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[ 2018-11-28T23:54:21+08:00 ] 127.0.0.1 GET 127.0.0.1:8000/
+[运行时间：0.041414s] [吞吐率：24.15req/s] [内存消耗：2,479.53kb] [文件加载：91]
+[ info ] [ LANG ] /Users/jon/Documents/项目汇总/车自主/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:8000',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Mobile Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1:8000/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1542875723; PHPSESSID=adc4a494dbb737cd1f81cb16d8b97397; city_name=%u67F3%u5DDE; city=%7B%22id%22%3A48%2C%22name%22%3A%22%u67F3%u5DDE%22%2C%22parent_id%22%3A46%2C%22listoreder%22%3A0%2C%22status%22%3A1%2C%22create_time%22%3Anull%2C%22update_time%22%3Anull%2C%22uname%22%3A%22liuzhou%22%2C%22is_default%22%3Anull%7D',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /Users/jon/Documents/项目汇总/车自主/application/index/view/index/index.html [ array (
+) ]
+---------------------------------------------------------------
+[ 2018-11-28T23:54:22+08:00 ] 127.0.0.1 GET 127.0.0.1:8000/index/index/indexdata/
+[运行时间：0.273179s] [吞吐率：3.66req/s] [内存消耗：3,397.99kb] [文件加载：97]
+[ info ] [ LANG ] /Users/jon/Documents/项目汇总/车自主/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:8000',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/plain, */*',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Mobile Safari/537.36',
+  'referer' => 'http://127.0.0.1:8000/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1542875723; PHPSESSID=adc4a494dbb737cd1f81cb16d8b97397; city_name=%u67F3%u5DDE; city=%7B%22id%22%3A48%2C%22name%22%3A%22%u67F3%u5DDE%22%2C%22parent_id%22%3A46%2C%22listoreder%22%3A0%2C%22status%22%3A1%2C%22create_time%22%3Anull%2C%22update_time%22%3Anull%2C%22uname%22%3A%22liuzhou%22%2C%22is_default%22%3Anull%7D',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.057959s ] mysql:host=39.108.101.229;dbname=czz_10huisp_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `clt_city` [ RunTime:0.039530s ]
+[ sql ] [ SQL ] SELECT * FROM `clt_city` [ RunTime:0.037963s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `clt_featured` [ RunTime:0.039216s ]
+[ sql ] [ SQL ] SELECT * FROM `clt_featured` [ RunTime:0.038911s ]
+---------------------------------------------------------------
+[ 2018-11-28T23:54:22+08:00 ] 127.0.0.1 GET 127.0.0.1:8000/static/index/vant/axios.min.map
+[运行时间：0.027908s] [吞吐率：35.83req/s] [内存消耗：1,608.25kb] [文件加载：68]
+[ info ] [ LANG ] /Users/jon/Documents/项目汇总/车自主/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[ 2018-11-28T23:54:22+08:00 ] 127.0.0.1 GET 127.0.0.1:8000/uploads/20181127/abdf0a6102d18bf1df5327cd73337020.jpg
+[运行时间：0.028853s] [吞吐率：34.66req/s] [内存消耗：1,608.27kb] [文件加载：68]
+[ info ] [ LANG ] /Users/jon/Documents/项目汇总/车自主/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[ 2018-11-28T23:54:22+08:00 ] 127.0.0.1 GET 127.0.0.1:8000/index/servicer/index.html
+[运行时间：0.034549s] [吞吐率：28.94req/s] [内存消耗：2,485.96kb] [文件加载：91]
+[ info ] [ LANG ] /Users/jon/Documents/项目汇总/车自主/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:8000',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Mobile Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1:8000/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1542875723; PHPSESSID=adc4a494dbb737cd1f81cb16d8b97397; city_name=%u67F3%u5DDE; city=%7B%22id%22%3A48%2C%22name%22%3A%22%u67F3%u5DDE%22%2C%22parent_id%22%3A46%2C%22listoreder%22%3A0%2C%22status%22%3A1%2C%22create_time%22%3Anull%2C%22update_time%22%3Anull%2C%22uname%22%3A%22liuzhou%22%2C%22is_default%22%3Anull%7D',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /Users/jon/Documents/项目汇总/车自主/application/index/view/servicer/index.html [ array (
+) ]
+---------------------------------------------------------------
+[ 2018-11-28T23:54:22+08:00 ] 127.0.0.1 GET 127.0.0.1:8000/resources/js/sl.location.1.0.js?v=1.2.25.51
+[运行时间：0.023767s] [吞吐率：42.08req/s] [内存消耗：1,608.25kb] [文件加载：68]
+[ info ] [ LANG ] /Users/jon/Documents/项目汇总/车自主/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[ 2018-11-28T23:54:23+08:00 ] 127.0.0.1 GET 127.0.0.1:8000/index/maintenance/cityCity?city_id=48
+[运行时间：0.189563s] [吞吐率：5.28req/s] [内存消耗：2,968.54kb] [文件加载：83]
+[ info ] [ LANG ] /Users/jon/Documents/项目汇总/车自主/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:8000',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/plain, */*',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Mobile Safari/537.36',
+  'referer' => 'http://127.0.0.1:8000/index/servicer/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'carinfo=70; car_name=%u8FDB%u53E3%u5965%u8FEAA4-2005%u6B3E-%u6392%u91CF%uFF1A1.9TDI; shop_info=%7B%22name%22%3A%22%u6881%u6CFD%u7965%22%2C%22phone%22%3A%2218577610926%22%2C%22bis_id%22%3A33%7D; by_service=30%2C33%2C34%2C31; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1542875723; PHPSESSID=adc4a494dbb737cd1f81cb16d8b97397; city_name=%u67F3%u5DDE; city=%7B%22id%22%3A48%2C%22name%22%3A%22%u67F3%u5DDE%22%2C%22parent_id%22%3A46%2C%22listoreder%22%3A0%2C%22status%22%3A1%2C%22create_time%22%3Anull%2C%22update_time%22%3Anull%2C%22uname%22%3A%22liuzhou%22%2C%22is_default%22%3Anull%7D',
+)
+[ info ] [ PARAM ] array (
+  'city_id' => '48',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.063683s ] mysql:host=39.108.101.229;dbname=czz_10huisp_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `clt_bislocation` [ RunTime:0.041615s ]
+[ sql ] [ SQL ] SELECT * FROM `clt_bislocation` WHERE  `city_id` = 48 [ RunTime:0.039377s ]
+---------------------------------------------------------------
+[ 2018-11-28T23:54:23+08:00 ] 127.0.0.1 GET 127.0.0.1:8000/static/index/vant/axios.min.map
+[运行时间：0.030176s] [吞吐率：33.14req/s] [内存消耗：1,608.25kb] [文件加载：68]
+[ info ] [ LANG ] /Users/jon/Documents/项目汇总/车自主/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[ 2018-11-28T23:54:23+08:00 ] 127.0.0.1 GET 127.0.0.1:8000/
+[运行时间：0.033275s] [吞吐率：30.05req/s] [内存消耗：2,479.56kb] [文件加载：91]
+[ info ] [ LANG ] /Users/jon/Documents/项目汇总/车自主/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:8000',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Mobile Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1:8000/index/servicer/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1542875723; PHPSESSID=adc4a494dbb737cd1f81cb16d8b97397; city_name=%u67F3%u5DDE; city=%7B%22id%22%3A48%2C%22name%22%3A%22%u67F3%u5DDE%22%2C%22parent_id%22%3A46%2C%22listoreder%22%3A0%2C%22status%22%3A1%2C%22create_time%22%3Anull%2C%22update_time%22%3Anull%2C%22uname%22%3A%22liuzhou%22%2C%22is_default%22%3Anull%7D',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /Users/jon/Documents/项目汇总/车自主/application/index/view/index/index.html [ array (
+) ]
+---------------------------------------------------------------
+[ 2018-11-28T23:54:24+08:00 ] 127.0.0.1 GET 127.0.0.1:8000/index/index/indexdata/
+[运行时间：0.351893s] [吞吐率：2.84req/s] [内存消耗：3,397.99kb] [文件加载：97]
+[ info ] [ LANG ] /Users/jon/Documents/项目汇总/车自主/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:8000',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/plain, */*',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Mobile Safari/537.36',
+  'referer' => 'http://127.0.0.1:8000/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1542875723; PHPSESSID=adc4a494dbb737cd1f81cb16d8b97397; city_name=%u67F3%u5DDE; city=%7B%22id%22%3A48%2C%22name%22%3A%22%u67F3%u5DDE%22%2C%22parent_id%22%3A46%2C%22listoreder%22%3A0%2C%22status%22%3A1%2C%22create_time%22%3Anull%2C%22update_time%22%3Anull%2C%22uname%22%3A%22liuzhou%22%2C%22is_default%22%3Anull%7D',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.080020s ] mysql:host=39.108.101.229;dbname=czz_10huisp_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `clt_city` [ RunTime:0.054652s ]
+[ sql ] [ SQL ] SELECT * FROM `clt_city` [ RunTime:0.054178s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `clt_featured` [ RunTime:0.056587s ]
+[ sql ] [ SQL ] SELECT * FROM `clt_featured` [ RunTime:0.055529s ]
+---------------------------------------------------------------
+[ 2018-11-28T23:54:24+08:00 ] 127.0.0.1 GET 127.0.0.1:8000/static/index/vant/axios.min.map
+[运行时间：0.024063s] [吞吐率：41.56req/s] [内存消耗：1,608.25kb] [文件加载：68]
+[ info ] [ LANG ] /Users/jon/Documents/项目汇总/车自主/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[ 2018-11-28T23:54:24+08:00 ] 127.0.0.1 GET 127.0.0.1:8000/uploads/20181127/abdf0a6102d18bf1df5327cd73337020.jpg
+[运行时间：0.021623s] [吞吐率：46.25req/s] [内存消耗：1,608.27kb] [文件加载：68]
+[ info ] [ LANG ] /Users/jon/Documents/项目汇总/车自主/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[ 2018-11-28T23:54:24+08:00 ] 127.0.0.1 GET 127.0.0.1:8000/index/servicer/index.html
+[运行时间：0.032636s] [吞吐率：30.64req/s] [内存消耗：2,485.96kb] [文件加载：91]
+[ info ] [ LANG ] /Users/jon/Documents/项目汇总/车自主/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:8000',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Mobile Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1:8000/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1542875723; PHPSESSID=adc4a494dbb737cd1f81cb16d8b97397; city_name=%u67F3%u5DDE; city=%7B%22id%22%3A48%2C%22name%22%3A%22%u67F3%u5DDE%22%2C%22parent_id%22%3A46%2C%22listoreder%22%3A0%2C%22status%22%3A1%2C%22create_time%22%3Anull%2C%22update_time%22%3Anull%2C%22uname%22%3A%22liuzhou%22%2C%22is_default%22%3Anull%7D',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /Users/jon/Documents/项目汇总/车自主/application/index/view/servicer/index.html [ array (
+) ]
+---------------------------------------------------------------
+[ 2018-11-28T23:54:24+08:00 ] 127.0.0.1 GET 127.0.0.1:8000/resources/js/sl.location.1.0.js?v=1.2.25.51
+[运行时间：0.027803s] [吞吐率：35.97req/s] [内存消耗：1,608.25kb] [文件加载：68]
+[ info ] [ LANG ] /Users/jon/Documents/项目汇总/车自主/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[ 2018-11-28T23:54:25+08:00 ] 127.0.0.1 GET 127.0.0.1:8000/index/maintenance/cityCity?city_id=48
+[运行时间：0.256263s] [吞吐率：3.90req/s] [内存消耗：2,968.54kb] [文件加载：83]
+[ info ] [ LANG ] /Users/jon/Documents/项目汇总/车自主/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:8000',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/plain, */*',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Mobile Safari/537.36',
+  'referer' => 'http://127.0.0.1:8000/index/servicer/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'carinfo=70; car_name=%u8FDB%u53E3%u5965%u8FEAA4-2005%u6B3E-%u6392%u91CF%uFF1A1.9TDI; shop_info=%7B%22name%22%3A%22%u6881%u6CFD%u7965%22%2C%22phone%22%3A%2218577610926%22%2C%22bis_id%22%3A33%7D; by_service=30%2C33%2C34%2C31; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1542875723; PHPSESSID=adc4a494dbb737cd1f81cb16d8b97397; city_name=%u67F3%u5DDE; city=%7B%22id%22%3A48%2C%22name%22%3A%22%u67F3%u5DDE%22%2C%22parent_id%22%3A46%2C%22listoreder%22%3A0%2C%22status%22%3A1%2C%22create_time%22%3Anull%2C%22update_time%22%3Anull%2C%22uname%22%3A%22liuzhou%22%2C%22is_default%22%3Anull%7D',
+)
+[ info ] [ PARAM ] array (
+  'city_id' => '48',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.085719s ] mysql:host=39.108.101.229;dbname=czz_10huisp_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `clt_bislocation` [ RunTime:0.057035s ]
+[ sql ] [ SQL ] SELECT * FROM `clt_bislocation` WHERE  `city_id` = 48 [ RunTime:0.055495s ]
+---------------------------------------------------------------
+[ 2018-11-28T23:54:25+08:00 ] 127.0.0.1 GET 127.0.0.1:8000/static/index/vant/axios.min.map
+[运行时间：0.033167s] [吞吐率：30.15req/s] [内存消耗：1,608.25kb] [文件加载：68]
+[ info ] [ LANG ] /Users/jon/Documents/项目汇总/车自主/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[ 2018-11-28T23:54:32+08:00 ] 127.0.0.1 GET 127.0.0.1:8000/index/user/index.html
+[运行时间：0.032813s] [吞吐率：30.48req/s] [内存消耗：2,482.21kb] [文件加载：90]
+[ info ] [ LANG ] /Users/jon/Documents/项目汇总/车自主/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:8000',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Mobile Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1:8000/index/servicer/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1542875723; PHPSESSID=adc4a494dbb737cd1f81cb16d8b97397; city_name=%u67F3%u5DDE; city=%7B%22id%22%3A48%2C%22name%22%3A%22%u67F3%u5DDE%22%2C%22parent_id%22%3A46%2C%22listoreder%22%3A0%2C%22status%22%3A1%2C%22create_time%22%3Anull%2C%22update_time%22%3Anull%2C%22uname%22%3A%22liuzhou%22%2C%22is_default%22%3Anull%7D',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /Users/jon/Documents/项目汇总/车自主/application/index/view/user/index.html [ array (
+  0 => 'user',
+) ]

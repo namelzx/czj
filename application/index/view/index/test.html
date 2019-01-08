@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport"
+          content="width=device-width,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>绑定</title>
+    <link href="../public/css/common.css" rel="stylesheet" media="screen" type="text/css"/>
+
+</head>
+<style>
+    body {
+        background: #efefef
+    }
+
+    .head {
+        background: #eb8691;
+        height: 4rem;
+    }
+
+    /* 卡片模块开始 */
+    .content {
+        width: 100%;
+        margin: auto;
+        background-image: url('../public/images/绑定卡片素材/名片.png');
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        -moz-background-size: 100% 100%;
+        height: 4.5rem;
+        position: absolute;
+        top: .8rem;
+    }
+
+    .content .input {
+        font-size: .6rem;
+        margin-left: 12%;
+        margin-top: 17%;
+    }
+
+    /* 卡号模块开始 */
+    .input .number {
+        border: 1px solid #efefef;
+        width: 60%;
+        height: .7rem;
+    }
+
+    .input .number .ico {
+        line-height: 0rem;
+        border-right: 1px solid #b4aeaeae;
+        width: 15%;
+        margin-top: .1rem;
+        margin-left: .1rem;
+        margin-bottom: .1rem;
+        float: left;
+    }
+
+    .input .number .card {
+        line-height: 0rem;
+        width: 80%;
+
+        float: left;
+    }
+
+    .number .card input {
+        outline: none;
+
+        height: .6rem;
+        width: 100%;
+    }
+
+    input:hover {
+        background: none;
+        border: 0;
+    }
+
+    .number .ico img {
+
+        width: .6rem;
+        height: .5rem;
+    }
+
+    /* 卡号模块结束 */
+    /* 验证码模块开始 */
+    .verification {
+        margin-top: .2rem;
+    }
+
+    .verification .title {
+        color: #b4aeae;
+        font-size: .2rem
+    }
+
+    .verification .number {
+        outline: none;
+        height: .7rem;
+        width: 40%;
+        float: left;
+    }
+
+    .verification .verification-img {
+        width: 20%;
+        float: left;
+    }
+
+    .verification-img img {
+        width: 1.5rem;
+    }
+    /* 验证码模块结束 */
+    /* 卡片模块结束 */
+
+    /* 分类模块开始 */
+    .ctegory {
+        margin-top: 1.5rem;
+        line-height: 0;
+    }
+
+    .ctegory .list-items {
+        width: 50%;
+        text-align: center;
+        float: left;
+    }
+
+    .list-items img {
+        width: 1rem;
+    }
+
+    .list-items span {
+        font-size: .1rem;
+    }
+    /* 分类模块结束 */
+    /* 描述模块开始 */
+    .desc {
+        margin: .2rem;
+        margin-top: 1rem;
+        display: inline-grid;
+
+    }
+
+    .desc .title {
+        font-size: .35rem;
+        font-weight: 500;
+        color: #848383
+    }
+
+    .desc span {
+        font-size: .26rem;
+        color: #9a9595;
+        font-family: monospace;
+    }
+    /* 描述模块结束 */
+
+    /* 按钮 */
+    .button{
+
+
+        width: 80%;
+        text-align:center;
+        background: #df4543;
+        color: #fff;
+        font-size: .3rem;
+        height: .9rem;
+        line-height: .9rem;
+        border-radius: .1rem;
+        margin: auto;
+        margin-top: 1rem;
+    }
+</style>
+<body>
+<!-- 卡片模块 start -->
+<div class="head">
+    <div class="content">
+        <div class="input">
+            <div class="number">
+                <div class="ico">
+                    <img src="../public/images/绑定卡片素材/3.png">
+                </div>
+                <div class="card"><input type="text"></div>
+            </div>
+            <!-- 清除浮动开始 -->
+            <div class="clear"></div>
+            <!-- 清除浮动结束 -->
+            <div class="verification">
+                <div class="title">验证码</div>
+                <div class="number">
+                    <div class="card"><input type="text"></div>
+                </div>
+                <div class="verification-img">
+                    <img src="../public/images/绑定卡片素材/verification.png">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- 卡片模块 end -->
+
+<div class="clear"></div>
+<!-- 分类开始 -->
+<div class="ctegory">
+    <div class="list-items">
+        <img src="../public/images/绑定卡片素材/1.png">
+        <div><span>储值卡</span></div>
+    </div>
+    <div class="list-items">
+        <img src="../public/images/绑定卡片素材/2.png">
+        <div><span>积分卡    </span></div>
+
+    </div>
+</div>
+<!-- 分类结束 -->
+
+
+</div>
+
+<!--  描述开始 -->
+<style>
+
+</style>
+<div class="desc">
+    <div class="title">
+        温馨提示
+    </div>
+    <span>
+        1.若您的卡片为实体卡，卡号为卡片正面或背面右下
+        角的1-13位数字，密码为手机号码后6位，请与商家
+        确认或重新设置密码;
+    </span>
+    <span>
+        2.绑定后，卡片内的余额、积分以及个人信息将转入
+        您的微信会员卡号内，原实体卡可以与微信卡号同时
+        使用；
+    </span>
+    <span>
+        3.若有疑问，请致电商家客服，热线电话：；
+    </span>
+</div>
+<!-- 描述结束 -->
+
+<!-- 按钮开始 -->
+<div class="button">
+    确认充值
+</div>
+<!-- 按钮结束 -->
+</body>
+<script>
+    document.body.addEventListener('touchmove', function (e) {
+        e.preventDefault();
+    }, {passive: false});
+
+</script>
+</html>

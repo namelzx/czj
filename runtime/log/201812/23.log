@@ -1,0 +1,335 @@
+---------------------------------------------------------------
+[ 2018-12-23T16:20:27+08:00 ] 127.0.0.1 GET 127.0.0.1:8000/
+[运行时间：0.136991s] [吞吐率：7.30req/s] [内存消耗：2,039.20kb] [文件加载：81]
+[ info ] [ LANG ] /Users/jon/Documents/项目汇总/车自主/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:8000',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'if-none-match' => 'W/"34e-7438674ba0"',
+  'if-modified-since' => 'Sat, 26 Oct 1985 08:15:00 GMT',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[ 2018-12-23T16:20:27+08:00 ] 127.0.0.1 GET 127.0.0.1:8000/index/user/login
+[运行时间：0.294104s] [吞吐率：3.40req/s] [内存消耗：2,110.84kb] [文件加载：81]
+[ info ] [ LANG ] /Users/jon/Documents/项目汇总/车自主/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:8000',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=164d54594cb0243ecd735df11d87b055',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /Users/jon/Documents/项目汇总/车自主/application/index/view/user/login.html [ array (
+) ]
+---------------------------------------------------------------
+[ 2018-12-23T16:20:33+08:00 ] 127.0.0.1 GET 127.0.0.1:8000/v1/user
+[运行时间：0.036825s] [吞吐率：27.16req/s] [内存消耗：2,047.66kb] [文件加载：82]
+[ info ] [ LANG ] /Users/jon/Documents/项目汇总/车自主/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'v1/user',
+  'route' => 'demo/Index/index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'complete_match' => true,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:8000',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=164d54594cb0243ecd735df11d87b055',
+)
+[ info ] [ PARAM ] array (
+)
+[ error ] [0]致命错误: Call to undefined method think\Request::instance()[/Users/jon/Documents/项目汇总/车自主/vendor/liushoukun/dawn-api/src/facade/ApiController.php:98]
+---------------------------------------------------------------
+[ 2018-12-23T16:20:38+08:00 ] 127.0.0.1 GET 127.0.0.1:8000/v1/user
+[运行时间：0.026264s] [吞吐率：38.08req/s] [内存消耗：2,048.17kb] [文件加载：82]
+[ info ] [ LANG ] /Users/jon/Documents/项目汇总/车自主/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'v1/user',
+  'route' => 'demo/Index/index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'complete_match' => true,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:8000',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=164d54594cb0243ecd735df11d87b055',
+)
+[ info ] [ PARAM ] array (
+)
+[ error ] [0]致命错误: Call to undefined method think\Request::instance()[/Users/jon/Documents/项目汇总/车自主/vendor/liushoukun/dawn-api/src/facade/ApiController.php:98]
+---------------------------------------------------------------
+[ 2018-12-23T16:22:46+08:00 ] 127.0.0.1 GET 127.0.0.1:8000/
+[运行时间：0.204053s] [吞吐率：4.90req/s] [内存消耗：2,039.02kb] [文件加载：81]
+[ info ] [ LANG ] /Users/jon/Documents/项目汇总/车自主/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:8000',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=164d54594cb0243ecd735df11d87b055',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[ 2018-12-23T16:22:46+08:00 ] 127.0.0.1 GET 127.0.0.1:8000/index/user/login
+[运行时间：0.240956s] [吞吐率：4.15req/s] [内存消耗：2,110.84kb] [文件加载：81]
+[ info ] [ LANG ] /Users/jon/Documents/项目汇总/车自主/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:8000',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=164d54594cb0243ecd735df11d87b055',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /Users/jon/Documents/项目汇总/车自主/application/index/view/user/login.html [ array (
+) ]
+---------------------------------------------------------------
+[ 2018-12-23T16:22:50+08:00 ] 127.0.0.1 GET 127.0.0.1:8000/v1
+[运行时间：0.020792s] [吞吐率：48.10req/s] [内存消耗：1,608.77kb] [文件加载：68]
+[ info ] [ LANG ] /Users/jon/Documents/项目汇总/车自主/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[ 2018-12-23T16:22:54+08:00 ] 127.0.0.1 GET 127.0.0.1:8000/v1/user
+[运行时间：0.027858s] [吞吐率：35.90req/s] [内存消耗：2,049.13kb] [文件加载：82]
+[ info ] [ LANG ] /Users/jon/Documents/项目汇总/车自主/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'v1/user',
+  'route' => 'demo/user/index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'complete_match' => true,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:8000',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=164d54594cb0243ecd735df11d87b055',
+)
+[ info ] [ PARAM ] array (
+)
+[ error ] [0]致命错误: Call to undefined method think\Request::instance()[/Users/jon/Documents/项目汇总/车自主/vendor/liushoukun/dawn-api/src/facade/ApiController.php:98]
+---------------------------------------------------------------
+[ 2018-12-23T16:23:40+08:00 ] 127.0.0.1 GET localhost:8000/v1/user
+[运行时间：0.084076s] [吞吐率：11.89req/s] [内存消耗：2,048.72kb] [文件加载：82]
+[ info ] [ LANG ] /Users/jon/Documents/项目汇总/车自主/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'v1/user',
+  'route' => 'demo/User/index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'complete_match' => true,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8000',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ error ] [0]致命错误: Call to undefined method think\Request::instance()[/Users/jon/Documents/项目汇总/车自主/vendor/liushoukun/dawn-api/src/facade/ApiController.php:98]
+---------------------------------------------------------------
+[ 2018-12-23T16:24:35+08:00 ] 127.0.0.1 GET localhost:8000/v1/user
+[运行时间：0.023598s] [吞吐率：42.38req/s] [内存消耗：2,036.53kb] [文件加载：82]
+[ info ] [ LANG ] /Users/jon/Documents/项目汇总/车自主/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'v1/user',
+  'route' => 'demo/User/index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8000',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ error ] [0]致命错误: Call to undefined method think\Request::instance()[/Users/jon/Documents/项目汇总/车自主/vendor/liushoukun/dawn-api/src/facade/ApiController.php:98]
+---------------------------------------------------------------
+[ 2018-12-23T16:24:47+08:00 ] 127.0.0.1 GET localhost:8000/v1/user
+[运行时间：0.024754s] [吞吐率：40.40req/s] [内存消耗：1,969.80kb] [文件加载：77]
+[ info ] [ LANG ] /Users/jon/Documents/项目汇总/车自主/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'v1/user',
+  'route' => 'demo/User/index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8000',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[ 2018-12-23T16:26:36+08:00 ] 127.0.0.1 GET localhost:8000/v1/user
+[运行时间：0.080784s] [吞吐率：12.38req/s] [内存消耗：2,036.33kb] [文件加载：82]
+[ info ] [ LANG ] /Users/jon/Documents/项目汇总/车自主/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'v1/user',
+  'route' => 'demo/User/index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8000',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ error ] [0]致命错误: Call to undefined method think\Request::instance()[/Users/jon/Documents/项目汇总/车自主/vendor/liushoukun/dawn-api/src/facade/ApiController.php:98]
+---------------------------------------------------------------
+[ 2018-12-23T16:28:24+08:00 ] 127.0.0.1 GET localhost:8000/v1/user
+[运行时间：0.029306s] [吞吐率：34.12req/s] [内存消耗：2,036.53kb] [文件加载：82]
+[ info ] [ LANG ] /Users/jon/Documents/项目汇总/车自主/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'v1/user',
+  'route' => 'demo/User/index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8000',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ error ] [0]致命错误: Call to undefined method think\Request::instance()[/Users/jon/Documents/项目汇总/车自主/vendor/liushoukun/dawn-api/src/facade/ApiController.php:98]
+---------------------------------------------------------------
+[ 2018-12-23T16:28:25+08:00 ] 127.0.0.1 GET localhost:8000/v1/user
+[运行时间：0.030285s] [吞吐率：33.02req/s] [内存消耗：2,036.53kb] [文件加载：82]
+[ info ] [ LANG ] /Users/jon/Documents/项目汇总/车自主/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'v1/user',
+  'route' => 'demo/User/index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8000',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ error ] [0]致命错误: Call to undefined method think\Request::instance()[/Users/jon/Documents/项目汇总/车自主/vendor/liushoukun/dawn-api/src/facade/ApiController.php:98]

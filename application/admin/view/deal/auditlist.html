@@ -1,0 +1,52 @@
+<!--包含头部文件-->
+{include file="public/header" /}
+<body>
+<nav class="breadcrumb"><i class="Hui-iconfont">&#xe67f;</i> 待审核审车列表</nav>
+<div class="page-container">
+    <!--<form id="form-o2o-add" method="post" action="{:url('deal/index')}">-->
+    <!--<div class="cl pd-5 bg-1 bk-gray mt-20">-->
+    <!--<div class="text-c">-->
+
+    <!--&lt;!&ndash;<button name="" id="" class="btn btn-success" type="submit"><i class="Hui-iconfont">&#xe665;</i> 搜索&ndash;&gt;-->
+    <!--&lt;!&ndash;</button>&ndash;&gt;-->
+    <!--</div>-->
+    <!--</div>-->
+    <!--</form>-->
+    <div class="mt-20">
+        <table class="table table-border table-bordered table-bg table-hover table-sort">
+            <thead>
+            <tr class="text-c">
+                <th width="20">ID</th>
+                <th width="100">预约用户</th>
+                <th width="40">联系电话</th>
+                <th width="40">上户时间</th>
+                <th width="40">当前状态</th>
+                <th width="80">提交时间</th>
+                <th width="80">车辆状况</th>
+                <th width="40">操作</th>
+            </tr>
+            </thead>
+            <tbody>
+            {volist name='res' id='vo' }
+            <tr class="text-c">
+                <td>{$vo.id}</td>
+                <td>{$vo.name}</td>
+                <td>{$vo.phone}</td>
+                <td>{$vo.doortime}</td>
+                <td>{$vo.status|Tstatus|raw}</td>
+                <td>{$vo.create_time|date="Y-m-d H:s"}</td>
+                <td><a onclick="o2o_s_edit('车辆状况','{:url('deal/infolist',['id'=>$vo.id])}','','300')">查看</a></td>
+                <td class="td-manage"><a style="text-decoration:none" class="ml-5"
+                                         onclick="o2o_del('/admin/deal/status?id={$vo.id}&status=0','下架')"
+                                         href="javascript:;" title="下架"><i class="Hui-iconfont">&#xe6e2;</i></a></td>
+            </tr>
+            {/volist}
+
+            </tbody>
+        </table>
+        {$res|raw}
+    </div>
+</div>
+<!--包含头部文件-->
+{include file="public/footer" /}
+<script src="__STATIC__/admin/hui/lib/My97DatePicker/WdatePicker.js"></script>

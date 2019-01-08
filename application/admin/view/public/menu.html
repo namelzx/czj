@@ -1,0 +1,122 @@
+<aside class="Hui-aside">
+    <input runat="server" id="divScrollValue" type="hidden" value=""/>
+    <div class="menu_dropdown bk_2">
+        <dl id="menu-article">
+            <dt><i class="Hui-iconfont">&#xe616;</i> 保养管理<i class="Hui-iconfont menu_dropdown-arrow">&#xe6d5;</i></dt>
+            <dd>
+                <ul>
+                    <li><a _href="{:url('category/index')}" data-title="保养管理" href="javascript:void(0)">保养管理</a></li>
+                </ul>
+            </dd>
+        </dl>
+        <dl id="menu-article">
+            <dt><i class="Hui-iconfont">&#xe616;</i> 服务项添加<i class="Hui-iconfont menu_dropdown-arrow">&#xe6d5;</i></dt>
+            <dd>
+                <ul>
+                    <li><a _href="{:url('Maintenance/index')}" data-title="服务项列表" href="javascript:void(0)">服务项列表</a>
+                    </li>
+                </ul>
+            </dd>
+        </dl>
+        <dl id="menu-article">
+            <dt><i class="Hui-iconfont">&#xe616;</i> 城市管理<i class="Hui-iconfont menu_dropdown-arrow">&#xe6d5;</i></dt>
+            <dd>
+                <ul>
+                    <li><a _href="{:url('city/index')}" data-title="城市分类" href="javascript:void(0)">城市分类</a></li>
+                </ul>
+            </dd>
+        </dl>
+        <dl id="menu-article">
+            <dt><i class="Hui-iconfont">&#xe613;</i> 商家管理<i class="Hui-iconfont menu_dropdown-arrow">&#xe6d5;</i></dt>
+            <dd>
+                <ul>
+                    <li><a _href="{:url('bis/index')}" data-title="商家列表" href="javascript:void(0)">商户列表</a></li>
+                    <li><a _href="{:url('bis/apply')}" data-title="商家入驻申请" href="javascript:void(0)">商家入驻申请</a></li>
+                    <!--<li><a _href="{:url('bis/dellist')}" data-title="删除的商户" href="javascript:void(0)">已拒绝商户</a></li>-->
+                </ul>
+            </dd>
+        </dl>
+        <dl id="menu-product">
+            <dt><i class="Hui-iconfont">&#xe620;</i> 审车订单管理<i class="Hui-iconfont menu_dropdown-arrow">&#xe6d5;</i></dt>
+            <dd>
+                <ul>
+                    <li><a _href="{:url('deal/index',['status'=>0])}" data-title="待审核审车订单" href="javascript:void(0)">待审核审车订单</a>
+                    </li>
+                    <li><a _href="{:url('deal/index',['status'=>1])}" data-title="已审核审车订单" href="javascript:void(0)">已审核审车订单</a>
+                    </li>
+
+                </ul>
+            </dd>
+        </dl>
+        <dl id="menu-product">
+            <dt><i class="Hui-iconfont">&#xe620;</i> 估价预约管理<i class="Hui-iconfont menu_dropdown-arrow">&#xe6d5;</i></dt>
+            <dd>
+                <ul>
+                    <li><a _href="{:url('deal/usedcar',['status'=>0])}" data-title="未审核二手机估价" href="javascript:void(0)">未审核二手车估价</a>
+                    </li>
+                    <li><a _href="{:url('deal/usedcar',['status'=>1])}" data-title="审核二手机估价" href="javascript:void(0)">已审核二手车估价</a>
+                    </li>
+
+                </ul>
+            </dd>
+        </dl>
+        <dl id="menu-product">
+            <dt><i class="Hui-iconfont">&#xe620;</i> 保险询价管理<i class="Hui-iconfont menu_dropdown-arrow">&#xe6d5;</i></dt>
+            <dd>
+                <ul>
+                    <li><a _href="{:url('deal/insurance',['status'=>0])}" data-title="未审核保险预约"
+                           href="javascript:void(0)">未审核保险预约</a>
+                    </li>
+                    <li><a _href="{:url('deal/insurance',['status'=>1])}" data-title="已审核保险预约"
+                           href="javascript:void(0)">已审核保险预约</a>
+                    </li>
+
+                </ul>
+            </dd>
+        </dl>
+        <dl id="menu-product">
+            <dt><i class="Hui-iconfont">&#xe620;</i> 保养手册<i class="Hui-iconfont menu_dropdown-arrow">&#xe6d5;</i></dt>
+            <dd>
+                <ul>
+                    <li><a _href="{:url('year/index')}" data-title="保养手册"
+                           href="javascript:void(0)">保养手册</a>
+                    </li>
+
+                </ul>
+            </dd>
+        </dl>
+        <dl id="menu-product">
+            <dt><i class="Hui-iconfont">&#xe620;</i> 推荐位管理<i class="Hui-iconfont menu_dropdown-arrow">&#xe6d5;</i></dt>
+            <dd>
+                <ul>
+                    <li><a _href="{:url('featured/add')}" data-title="添加推荐位内容" href="javascript:void(0)">添加推荐位内容</a>
+                    </li>
+                    <li><a _href="{:url('featured/index')}" data-title="推荐位列表" href="javascript:void(0)">推荐位列表</a></li>
+
+                </ul>
+            </dd>
+        </dl>
+
+        <!--<dl id="menu-member">-->
+            <!--<dt><i class="Hui-iconfont">&#xe60d;</i> 会员管理<i class="Hui-iconfont menu_dropdown-arrow">&#xe6d5;</i></dt>-->
+            <!--<dd>-->
+                <!--<ul>-->
+                    <!--<li><a _href="{:url('user/index')}" data-title="会员列表" href="javascript:;">会员列表</a></li>-->
+                    <!--<li><a _href="{:url('user/deleindex')}" data-title="删除的会员" href="javascript:;">删除的会员</a></li>-->
+
+                <!--</ul>-->
+            <!--</dd>-->
+        <!--</dl>-->
+        <!--<dl id="menu-product">-->
+        <!--<dt><i class="Hui-iconfont">&#xe620;</i> 订单管理<i class="Hui-iconfont menu_dropdown-arrow">&#xe6d5;</i></dt>-->
+        <!--<dd>-->
+        <!--<ul>-->
+        <!--<li><a _href="" data-title="订单列表" href="javascript:void(0)">订单列表</a></li>-->
+        <!--<li><a _href="" data-title="删除的订单" href="javascript:void(0)">删除的订单</a></li>-->
+        <!---->
+        <!--</ul>-->
+        <!--</dd>-->
+        <!--</dl>-->
+
+    </div>
+</aside>

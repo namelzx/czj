@@ -1,0 +1,270 @@
+<!--包含头部文件-->
+{include file="public/header" /}
+{load href="__STATIC__/admin/layui/css/layui.css" /}
+
+<article class="page-container" id="app">
+    <form class="form form-horizontal">
+        基本信息：
+        <div class="row cl">
+            <label class="form-label col-xs-4 col-sm-2"><span class="c-red">*</span>商户名称：</label>
+            <div class="formControls col-xs-8 col-sm-3">
+                <input type="text" class="input-text" value="{$bisdata.name}" placeholder="" name="name">
+            </div>
+        </div>
+
+        <div class="row cl">
+            <label class="form-label col-xs-4 col-sm-2"><span class="c-red">*</span>所属城市：</label>
+            <div class="formControls col-xs-8 col-sm-2">
+				<span class="select-box">
+                    {$citys.name}
+				<!--<select name="city_id" class="select cityId">-->
+					<!--<option value="0">&#45;&#45;请选择&#45;&#45;</option>-->
+					<!--{volist name='citys' id='vo'}-->
+					<!--<option value="{$vo.id}" {if condition="$bisdata.city_id eq $vo.id" } selected='selected' {/if}>{$vo.name}</option>-->
+                    <!--{/volist}-->
+				<!--</select>-->
+				</span>
+            </div>
+
+        </div>
+
+        <div class="row cl">
+            <label class="form-label col-xs-4 col-sm-2">logo：</label>
+            <div class="formControls col-xs-8 col-sm-9">
+
+
+                <div class="layui-upload">
+
+                    <div class="layui-upload-list">
+                        <img class="layui-upload-img" src="{$bisdata.logo}" id="file_upload1">
+                        <p id="demoText"></p>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+        <div class="row cl">
+            <label class="form-label col-xs-4 col-sm-2">营业执照：</label>
+            <div class="formControls col-xs-8 col-sm-9">
+
+
+                <div class="layui-upload">
+                    <!-- <button type="button" class="layui-btn" id="file_upload_other">上传图片</button> -->
+                    <div class="layui-upload-list">
+                        <img class="layui-upload-img" src="{$bisdata.licenece_logo}"  id="file_upload2">
+                        <p id="demoText"></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="row cl">
+            <label class="form-label col-xs-4 col-sm-2">银行账号:</label>
+            <div class="formControls col-xs-8 col-sm-3">
+                <input type="text" class="input-text" value="{$bisdata.bank_info}" placeholder="" name="bank_info">
+            </div>
+        </div>
+        <div class="row cl">
+            <label class="form-label col-xs-4 col-sm-2">开户行名称:</label>
+            <div class="formControls col-xs-8 col-sm-3">
+                <input type="text" class="input-text" value="{$bisdata.bank_name}" placeholder="" name="bank_name">
+            </div>
+        </div>
+        <div class="row cl">
+            <label class="form-label col-xs-4 col-sm-2">开户行姓名:</label>
+            <div class="formControls col-xs-8 col-sm-3">
+                <input type="text" class="input-text" value="{$bisdata.bank_user}" placeholder="" name="bank_user">
+            </div>
+        </div>
+        <div class="row cl">
+            <label class="form-label col-xs-4 col-sm-2">法人:</label>
+            <div class="formControls col-xs-8 col-sm-3">
+                <input type="text" class="input-text" value="{$bisdata.faren}" placeholder="" name="faren">
+            </div>
+        </div>
+        <div class="row cl">
+            <label class="form-label col-xs-4 col-sm-2">法人电话:</label>
+            <div class="formControls col-xs-8 col-sm-3">
+                <input type="text" class="input-text" value="{$bisdata.faren_tel}" placeholder="" name="faren_tel">
+            </div>
+        </div>
+        <div class="row cl">
+            <label class="form-label col-xs-4 col-sm-2"><span class="c-red">*</span>邮箱：</label>
+            <div class="formControls col-xs-8 col-sm-3">
+                <input type="text" class="input-text" value="{$bisdata.email}" placeholder="" name="email">
+            </div>
+        </div>
+        总店信息：
+        <div class="row cl">
+            <label class="form-label col-xs-4 col-sm-2">电话:</label>
+            <div class="formControls col-xs-8 col-sm-3">
+                <input type="text" class="input-text" value="{$locationdata.tel}" placeholder="" name="tel">
+            </div>
+        </div>
+        <div class="row cl">
+            <label class="form-label col-xs-4 col-sm-2">联系人:</label>
+            <div class="formControls col-xs-8 col-sm-3">
+                <input type="text" class="input-text" value="{$locationdata.contact}" placeholder="" i name="contact">
+            </div>
+        </div>
+
+
+        <div class="row cl">
+            <label class="form-label col-xs-4 col-sm-2">商户地址：</label>
+            <div class="formControls col-xs-8 col-sm-3">
+                <input type="text" class="input-text" value="{$locationdata.api_address}" placeholder="" name="address">
+            </div>
+            <a class="btn btn-default radius ml-10 maptag">标注</a>
+        </div>
+
+
+        账号信息：
+        <div class="row cl">
+            <label class="form-label col-xs-4 col-sm-2">用户名:</label>
+            <div class="formControls col-xs-8 col-sm-3">
+                <input type="text" class="input-text" value="{$accountdata.username}" placeholder="" name="username">
+            </div>
+        </div>
+        <div class="row cl">
+            <label class="form-label col-xs-4 col-sm-2">密码:</label>
+            <div class="formControls col-xs-8 col-sm-3">
+                <input type="password" class="input-text" value="" placeholder="{$accountdata.password}"
+                       name="password">
+            </div>
+        </div>
+    </form>
+</article>
+<!--包含尾部文件-->
+<script src="https://cdn.bootcss.com/jquery/2.1.1/jquery.min.js"></script>
+{include file="public/footer" /}
+<script type="text/javascript" src="__STATIC__/admin/hui/lib/ueditor/1.4.3/ueditor.config.js"></script>
+<script type="text/javascript" src="__STATIC__/admin/hui/lib/ueditor/1.4.3/ueditor.all.min.js"></script>
+<script type="text/javascript" src="__STATIC__/admin/hui/lib/ueditor/1.4.3/lang/zh-cn/zh-cn.js"></script>
+
+{load href="__STATIC__/admin/layui/layui.js" /}
+{load href="__STATIC__/admin/js/image.js" /}
+
+<!--分配编辑器-->
+<script>
+    $(function () {
+        var ue = UE.getEditor('editor');
+        var ue1 = UE.getEditor('editor1');
+    });
+
+
+    var SCOPE = {
+        'city_url': "{:url('api/city/getCitysByparentId')}",
+        'category_url': "{:url('api/category/getcategorysByparentId')}",
+        // 'uploadify_swf'	: '__STATIC__/admin/uploadify/uploadify.swf',
+
+        // 'uploadlayui_url'	: "{:url('api/image/upload')}"
+    }
+</script>
+
+
+<script src="__INDEX__/vant/vue.min.js"></script>
+<script src="__INDEX__/vant/axios.min.js"></script>
+
+<script>
+    var app = new Vue({
+        el: "#app",
+        data: {
+            temp: {
+                password: undefined,
+
+            },
+            barea: 0,
+            bcity: 0,
+            c_id: undefined,
+            mid: undefined,
+            couponSelected: undefined,
+            bindex: 1,
+            show: false,
+            area: [],//所省份
+            city: [],//所在城市
+        },
+        created() {
+
+            this.GetBrandByList();
+
+        },
+        methods: {
+            GetBrandByList() {
+                axios.get('/index/index/indexdata/').then(res => {
+                    this.area = res.data.city
+                    this.banner = res.data.banner
+                })
+            },
+            handemanu(index, mid) {
+                if (this.manufactorin == index) {
+                    this.manufactorin = -1;
+                } else {
+                    this.manufactorin = index
+                    axios.get('/index/maintenance/carmodels', {
+                        params: {
+                            id: mid
+                        }
+                    }).then(res => {
+                        this.carmodels = res.data
+                        // this.carbrand = res.data;
+                        // this.Manufactor = this.carbrand[this.current].course
+                    })
+                }
+            },
+            chooseMedicine(v) {
+                axios.get('/index/maintenance/carmodels', {
+                    params: {
+                        id: this.mid
+                    }
+                }).then(res => {
+                    console.log(res)
+                    this.carmodels = res.data
+                })
+            },
+            handecurrent() {
+                this.city = [];
+                for (var i = 0; i < this.area.length; i++) {
+
+                    if (this.area[i].parent_id == this.barea) {
+                        this.city.push(this.area[i]);
+                    }
+
+
+                }
+
+                // this.manufactorin = null
+                // this.current = this.bindex
+                // this.manufactor = this.carbrand[this.bindex].course
+            },
+            handelmodel() {
+                axios.get('/index/maintenance/carinfo', {params: {id: this.c_id}}).then(res => {
+                    this.carinfo = res.data
+                    this.show = true
+                    console.log(res)
+                })
+            },
+            handeinfo(id) {
+                setCookie('carinfo', id)
+                this.show = false
+                // console.log(getCookie('carinfo'))
+            },
+            handeladd() {
+                var logo = $('#logo').val();
+
+                var licenece_logo = $('#licenece_logo').val();
+                console.log(licenece_logo)
+                //
+                this.temp.logo = logo;
+                this.temp.licenece_logo = licenece_logo;
+                axios.post('/bis/register/add', this.temp).then(res => {
+                    console.log(res
+                    )
+                })
+            }
+        }
+    })
+</script>
+</body>
+</html>

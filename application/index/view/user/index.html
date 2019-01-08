@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta charset="UTF-8">
+    <title></title>
+    <meta name="renderer" content="webkit">
+    <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0"/>
+    <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" media="screen"/>
+    {include file="public/css"}
+</head>
+<body>
+<div class="content">
+    <div>
+    </div>
+    <div class="block"><!--each983663618886:start-->
+        <div data-include-loaded="loaded" data-include-rendered="rendered"><!--ms-include-->
+            <div class="" sign="usercenter_center" avalonctrl="usercenter_center">
+                <div class=" font-s16 user_center">
+                    <div class="us-hd relative">
+                        <figure class="us-hd-bg">
+                            <img src="http://static.chezizhu.com/m/images/user/bg_banner.jpg" class="w100 ht100">
+                        </figure>
+                        <div class="us-hd-info">
+                            <div class="us-hd-icon" onclick="location.reload(true)">
+                                <img src="http://thirdwx.qlogo.cn/mmopen/rsLDt1Tn0d9yoVB0lukbVcepZc61iaBtzz5KmJ3ia4iaw9rSHGYxfKATAvrD4icgibxfTEgiblBHtL79nUPccye0OvQmJIOe9nRgOS/132"
+                                     alt="" width="100%">
+                            </div>
+                            <div class="us-user-info mt_10">
+                                {$user.username}<br><span>{$user.mobile}</span><br>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="main">
+                        <a href="{:url('index/user/maintenance')}">
+                            <div class="row relative bg_white border-b mt_5">
+                                <i class="iconfont icon-baoyang ml_15 font-s20  absolute-l"></i> <span
+                                    class="ml_45">保养订单</span>
+                                <i class="iconfont icon-rightArrow-copy mr_15 font-s15 pt_2 absolute-r"></i>
+                            </div>
+                        </a>
+                        <a href="{:url('index/user/whosecar')}">
+                            <div class="row relative bg_white border-b">
+                                <i class="iconfont icon-xinxifuwuyewuyujingcheliangniandushenyan ml_15 font-s20  absolute-l mt_2"></i>
+                                <span class="ml_45">审车订单</span>
+                                <i class="iconfont icon-rightArrow-copy fr mr_15 font-s15 pt_2 absolute-r"></i>
+                            </div>
+                        </a>
+
+                        <a href="{:url('index/user/insurance')}">
+                            <div class="row relative bg_white border-b">
+                                <i class="iconfont icon-chexianguanli ml_15 font-s20  absolute-l"></i> <span
+                                    class="ml_45">保险订单</span>
+                                <i class="iconfont icon-rightArrow-copy fr mr_15 font-s15 pt_2 absolute-r"></i>
+                            </div>
+                        </a>
+                        <a href="{:url('index/user/usedcar')}">
+                            <div class="row relative bg_white border-b">
+                                <i class="iconfont icon-12 ml_15 font-s20  absolute-l mt_2"></i> <span
+                                    class="ml_45">二手车估价订单</span>
+                                <i class="iconfont icon-rightArrow-copy fr mr_15 font-s15 pt_2 absolute-r"></i>
+                            </div>
+                        </a>
+                        <!--<div class="row relative bg_white border-b mt_5">-->
+                        <!--<i class="iconfont icon-huodong ml_15 font-s20  absolute-l mt_2"></i> <span class="ml_45">我的优惠券</span>-->
+                        <!--<i class="iconfont icon-rightArrow-copy fr mr_15 font-s15 pt_2 absolute-r"></i>-->
+                        <!--</div>-->
+                        <!---->
+                        <a href="{:url('index/user/login')}">
+                            <div class="row relative bg_white border-b">
+                                <i class="iconfont icon-zhuxiao ml_15 font-s20 absolute-l mt_2"></i> <span
+                                    class="ml_45">安全退出</span>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="ht60"></div>
+                    {include file="public/footer"}
+
+                </div>
+            </div>
+            <style type="text/css">
+                .us-nav-item {
+                    width: 25%;
+                }
+            </style>
+        </div>
+    </div>
+</div>
+</body>
+</html>

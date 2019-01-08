@@ -1,0 +1,22 @@
+<!--包含头部文件-->
+{include file="public/header" /}
+<div class="panel-body">
+    <table class="table table-border table-bordered table-striped">
+        <thead>
+        <tr>
+
+            <th>已选保险项</th>
+        </tr>
+        </thead>
+        <tbody>
+        {volist name="res" id="vo" empty="暂时没有数据"}
+        <tr>
+            <td><code>{$vo.name}</code></td>
+        </tr>
+        {/volist}
+        </tbody>
+    </table>
+</div>
+<!--包含头部文件-->
+{include file="public/footer" /}
+<script src="__STATIC__/admin/hui/lib/My97DatePicker/WdatePicker.js"></script>
