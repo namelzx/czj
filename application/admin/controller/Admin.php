@@ -13,6 +13,10 @@ use think\Controller;
 
 class Admin extends Controller
 {
+    /**
+     * @return \think\response\View|void
+     * @throws \think\Exception\DbException
+     */
     public function login()
     {
         if (request()->isPost()) {
